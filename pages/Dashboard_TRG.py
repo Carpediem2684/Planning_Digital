@@ -105,7 +105,7 @@ def show_dashboard_trg():
 
         return df
 
-    qualite_path = Path(r"C:\Users\yannick.tetard\OneDrive - GERFLOR\Desktop\Planning Streamlit\xarpediem2684-repo-main") / "Qualite.xlsx"
+    qualite_path = Path("Qualite.xlsx")
 
     if not os.path.exists(qualite_path):
         st.error(f"Fichier '{qualite_path}' introuvable dans : {os.getcwd()}")
