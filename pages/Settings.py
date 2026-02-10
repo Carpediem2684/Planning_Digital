@@ -8,7 +8,7 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-BASE_PATH = Path(r"C:\Users\yannick.tetard\OneDrive - GERFLOR\Desktop\Planning Streamlit\xarpediem2684-repo-main")
+BASE_PATH = Path("..")          # remonte d'un dossier depuis /pages
 SUIVI_OF_FILE = BASE_PATH / "SUIVI_OF.xlsx"
 
 LIGNE_MAPPING = {
